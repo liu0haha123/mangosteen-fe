@@ -1,0 +1,21 @@
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    >header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    >main {
+        flex-grow: 1;
+    }
+
+    >footer {
+        flex-shrink: 0;
+    }
+}
