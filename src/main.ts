@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import { App } from './App'
 import {routes} from "./config/routes"
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter} from 'vue-router'
 import { history } from './shared/history'
 
 
