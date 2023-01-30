@@ -4,7 +4,8 @@
   flex-direction: column;
   background-image: linear-gradient(to bottom, var(--welcome-bg-start) 0%, var(--welcome-bg-end) 100%);
   margin-bottom: var(--welcome-nav-height);
-  > header {
+
+  >header {
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
@@ -12,15 +13,22 @@
     align-items: center;
     padding-top: 66px;
     color: #D4D4EE;
+
+    >svg {
+      width: 64px;
+      height: 69px;
+    }
   }
-  > main {
+
+  >main {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     position: relative;
     margin: 16px 16px var(--welcome-nav-gap);
   }
-  > footer {
+
+  >footer {
     flex-shrink: 0;
   }
 }
@@ -38,6 +46,7 @@
 .slide_fade_enter_from {
   transform: translateX(100vw);
 }
+
 .slide_fade_leave_to {
   transform: translateX(-100vw);
 }
